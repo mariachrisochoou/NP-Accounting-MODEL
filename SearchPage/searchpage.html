@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Results</title>
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist\css\bootstrap.css">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+    <br><br><br>
+    <h1>Search a file from Database</h1><br><br>
+    <h2>Select a file filter</h2>
+    <div id="filter-option">
+        <fieldset>
+            <legend>Statement Type</legend>
+            <select>
+                <option value="All" selected="selected">All</option>
+                <option value="Balance Sheet">Balance Sheet</option>
+                <option value="PLS">Profit and Loss Statement</option>
+                <option value="TB">Trial Balance</option>
+            </select>
+        </fieldset><br>
+        <fieldset>
+            <legend>Year of publishment</legend>
+            <select>
+                <option value="All" selected="selected">All</option>
+                <option value="Before 2020">Before 2020</option>
+                <option value="2021-2022">2021-2022</option>
+                <option value="2023-">2023-</option>
+            </select>
+        </fieldset>
+    </div>
+    <br><br>
+    <h2>Type the file name</h2>
+    <div id="file-name">
+        <input type="text" placeholder="Name of file" margin="auto">
+    </div>
+    <br><br><br><button class="my-button">Search</button>
+
+
+
+
+</body>
+
+</html>

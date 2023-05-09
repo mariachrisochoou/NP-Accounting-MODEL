@@ -4,12 +4,23 @@ body {
 
 #nav-bar {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 750px;
     left: 99px;
     top: 95px;
 
     background: #0C4FD1;
+    border-radius: 20px;
+}
+
+#main-course {
+    position: absolute;
+    width: 900px;
+    height: 750px;
+    right: 99px;
+    top: 95px;
+
+    background: white;
     border-radius: 20px;
 }
 
@@ -25,6 +36,7 @@ ul {
     width: 17px;
     height: 21px;
     float: left;
+    margin: 7px;
 }
 
 .tabs-top, .tabs-bottom {
@@ -36,6 +48,7 @@ ul {
 
 .icons-bottom {
     position: relative;
+    text-align:left;
     left:75px;
     bottom: 0%;
 }
@@ -50,6 +63,8 @@ ul {
     background-color:#4178E4;
     border-radius: 50px;
     width: 100px;
+    margin: 5px;
+
 }
 
 ::placeholder {
@@ -60,3 +75,26 @@ ul {
 .search-form {
     border: #0C4FD1;
 }
+
+.heads {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #2C2D2D;
+    font-style: Tahoma;
+    font-size:25px;
+}
+
+.type {
+    right: 100px;
+    color: #2C2D2D;
+    font-style: Verdana;
+    font-size:20px;
+}
+
+.docs {
+    font-style: Verdana;
+    font-size:20px;
+    line-height: 1.5;
+}
+

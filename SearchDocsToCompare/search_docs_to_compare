@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Results</title>
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist\css\bootstrap.css">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+    <div id = "nav-bar">
+        <ul>
+            <li>    
+                <img id = "search-icon" class = "icons-top" src="assets\magnifier.png" alt="search icon">
+                <form id = "search-form">
+                    <input id = "search-holder" placeholder = "Search" title="Search for clients" onkeyup="search()">
+                    <script src="searchsortjavascripthelpers.js"></script>
+                </form>
+                </img>
+            </li>
+            <br><br><br>
+            <li>
+                <img class = "icons-top" src="assets\file.png" alt="doc icon">
+                <p class = "tabs-top">Documents</p>
+                </img>
+            </li>
+            <li>
+                <img class = "icons-top" src="assets\customer.png" alt="clients icon"> 
+                <p class = "tabs-top">Clients</p>
+                </img>
+            </li>
+            <li>
+                <img class = "icons-top" src="assets\open-book.png" alt="book icon">
+                <p class = "tabs-top">Transaction History</p>
+                </img>
+            </li>
+            <li>
+                <img class = "icons-top" src="assets\add.png" alt="plus icon">
+                <p class = "tabs-top">Insert Data</p>
+                </img>
+            </li>
+            <li>
+                <img class = "icons-top" src="assets\edit.png" alt="edit icon">
+                <p class = "tabs-top">Edit Data</p>
+                </img>
+            </li>
+            <li>
+                <img class = "icons-top" src="assets\stats.png" alt="stats icon"> 
+                <p class = "tabs-top">Data base Stats</p>
+                </img>
+            </li>
+        </ul>
+        <br><br><br><br><br><br><br><br><br>
+        <ul>
+            <li>
+                <img class = "icons-bottom" src="assets\setting.png" alt="settings icon">
+                <p class = "tabs-bottom">Settings</p>
+                </img>
+            </li>
+            <li>
+                <img class = "icons-bottom" src="assets\return.png" alt="exit icon">
+                <p class = "tabs-bottom">Exit</p>
+                </img>
+            </li>
+        </ul>
+        
+        
+    </div>
+
+    <img class="icon-right" src="assets/filter.png" alt="filter icon">
+    <p class="icon-right"></p>
+    </img>
+
+    <script src = "bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+
+  <div id="clientlist">
+    <p>&nbsp;</p>
+    <ul id="myUL">
+        <li><a href="https://www.euretirio.com/wp-content/uploads/2010/06/katastasi-apotelesmaton-xrisis-kax-euretirio.jpg">TOSHIBA - ΚΑΧ - 2021</a></li>
+        <li><a href="https://www.e-forologia.gr/cms/uploads/224537_1.jpg">TOSHIBA - ΚΑΧ - 2022</a></li>
+        <li><a href="https://images.slideplayer.gr/42/11599833/slides/slide_6.jpg">RED BULL - ΚΑΧ - 2022</a></li>
+        <li><a href="https://www.hcm.gr/wp-content/uploads/2022/01/%CE%99%CF%83%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82-2020-pdf.jpg">RED BULL - ΙΣΟΛΟΓΙΣΜΟΣ - 2022</a></li>
+        <li><a href="https://wiki.soft1.eu/download/attachments/3148015/ektiposeis_isologismos_genikis_logistikis_71.jpg?version=4&modificationDate=1533714278663&api=v2">RED BULL - ΙΣΟΛΟΓΙΣΜΟΣ - 2021</a></li>
+        <li><a href="https://www.onalert.gr/files/Image/NewOnAlert/DOCUMENTS/11MISTHODOSIA.png">HUAWEI - ΜΙΣΘΟΔΟΣΙΑ - 2022</a></li>
+        <li><a href="https://wiki.soft1.eu/download/attachments/3148154/ektiposeis_orizomena_imerologia_genikis_logistikis_54.jpg?version=4&modificationDate=1533714367693&api=v2">HUAWEI - ΗΜΕΡΟΛΟΓΙΟ - 2022</a></li>
+        <li><a href="https://www.especial.gr/wp-content/uploads/2020/03/misthodosia-apriliou-596x459.jpg">YAMAHA MOTOR COMPANY - ΜΙΣΘΟΔΟΣΙΑ - 2022</a></li>
+        <li><a href="https://www.euretirio.com/wp-content/uploads/2010/06/imerologiakes-eggrafes-imerologio-logistiki-euretirio.jpg">YAMAHA MOTOR COMPANY - ΗΜΕΡΟΛΟΓΙΟ - 2022</a></li>
+        <li><a href="https://binaries.templates.cdn.office.net/support/templates/el-gr/lt02827551_quantized.png">YAMAHA MOTOR COMPANY - ΙΣΟΛΟΓΙΣΜΟΣ - 2021</a></li>
+    </ul>
+ </div> 
+      <div class="list-choice">
+        <div class="list-choice-title">Sort by</div>
+        <div class="list-choice-objects">
+          <label>
+           <button onclick="sortList()">Name</button>
+           <script src="searchsortjavascripthelpers.js"></script>
+          </label>
+          <label>
+            <button onclick="sortyear()">Year</button>
+            <script src="searchsortjavascripthelpers.js"></script>
+          </label>
+          <label>
+            <button onclick="lastaccessrandom()">Last Accessed</button>
+            <script src="searchsortjavascripthelpers.js"></script>
+          </label>
+        </div>
+ </div>
+ <div id="heading-title">
+        <p>
+            <b> Name - Accounting Record - Year</b>
+        </p>
+ </div>
+    
+</body>
+</html>

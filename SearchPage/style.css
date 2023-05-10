@@ -53,10 +53,10 @@ input{
 
 @media screen and (min-width: 1200px) {
     h1 {
-      font-size: 36px; /* Adjust the font size as needed */
+      font-size: 36px;
     }
   
     h2 {
-      font-size: 24px; /* Adjust the font size as needed */
+      font-size: 24px;
     }
   }

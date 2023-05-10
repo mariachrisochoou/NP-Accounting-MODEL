@@ -15,9 +15,9 @@ button {
     height: 50px;
 
     justify-content: center;
-    color: white;
+    color: black;
     text-size-adjust: large;
-    background: #8C3D99;
+    background: navajowhite;
     box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25);
     border-radius: 32px;
     margin: auto;
@@ -25,7 +25,7 @@ button {
 }
 
 h1 {
-    color: #8C3D99;
+    color: #0c4fd1;
     font-size: xx-large;
     font-family: sans-serif;
     font-weight: bold;
@@ -33,14 +33,14 @@ h1 {
 }
 
 h2 {
-    color: #8C3D99;
+    color: #0c4fd1;
     font-size: larger;
     font-family: sans-serif;
     text-align: center;
 }
 
 fieldset {
-    color: #8C3D99;
+    color: #0c4fd1;
     margin:auto;
     text-align: center;
     width: fit-content;

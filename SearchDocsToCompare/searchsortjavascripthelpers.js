@@ -75,7 +75,7 @@ function search() {
 
     
 
-  }
+}
 
 
 function redirect() {
@@ -89,5 +89,18 @@ function redirect() {
 		} else {
 			alert("Choose at least two documents to compare.");
 		}
+}
+
+
+function exportD() {
+
+  var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+  if (checkboxes.length >= 2) {
+      alert("Please choose one or more documents");
+  } else {
+      prompt("Please type your preffered representation type:", "PDF/Word/Excel/CSV/TXT");
+      prompt("Please type your preffered export method:", "mail/print");
+      alert("Your document(s) is/are being decompressed...");
+  }
 }
   

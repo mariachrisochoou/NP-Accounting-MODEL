@@ -1,0 +1,191 @@
+body {
+    background-color:#2C2D2D;
+}
+
+#nav-bar {
+    position: relative;
+    width: 300px;
+    height: 720px;
+    left: 99px;
+    top: 80px;
+    background: #0C4FD1;
+    border-radius: 20px;
+}
+
+#main-course {
+    position: absolute;
+    width: 900px;
+    height: 715px;
+    left:382px;
+    bottom:0px;
+    top:90px;
+    background: white;
+    border-radius: 20px;
+}
+
+ul {
+    height: 0px;
+    padding: 20px;
+    margin: 10px;
+    text-align:justify;
+    list-style-type: none;
+}
+
+#search-icon {
+    width:20px;
+    height: 20px;
+}
+
+.icons-top, .icons-bottom{
+    width: auto;
+    height: 30px;
+    float: left;
+}
+
+.tabs-top, .tabs-bottom {
+    font-family: 'Inter var', sans-serif;
+    position: relative;
+    left:15px;
+}
+
+.tabs-top {
+    font-size:x-large;
+}
+
+.tabs-bottom {
+    font-size:x-large;
+}
+
+#search-holder {
+    position: relative;
+    background-color:#4178E4;
+    border-radius: 50px;
+    border:none;
+    width: 220px;
+    left:10px;
+}
+
+button {
+    border:none;
+    background: none;
+    width: 220px;
+    text-align: start;
+    color:white;
+    border-width: 500px;
+}
+
+button:hover {
+    text-shadow: 1.5px 1.5px 1.5px black;
+    border-radius: 20px;
+    box-shadow: 2px 2px black;
+    background:#4178E4; 
+    transition:box-shadow 0.2s linear;
+}
+
+::placeholder {
+    color: black;
+}
+
+.heads {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #2C2D2D;
+    font-style: Tahoma;
+    font-size:25px;
+}
+
+.type {
+    right: 100px;
+    color: #2C2D2D;
+    font-style: Verdana;
+    font-size:20px;
+}
+
+.docs {
+    font-style: Verdana;
+    font-size:20px;
+    line-height: 1.5;
+}
+
+#mid-bar { 
+    width: 280px;
+    height: 490px;
+    margin-left:0px;
+    margin-top: 100px;
+}
+
+.results {
+    position: relative;
+    left:10px;
+    top:50px;
+}
+
+#final-dif {
+    top:60px;
+}
+
+@media only screen and (max-height: 800px) {
+    #nav-bar, #main-course {
+        height: 570px;
+    }
+    
+    .heads {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    #mid-bar {
+        height:330px;
+    }
+
+    #main-course ul  {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .results {
+        top:0px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #main-course {
+        width: 70%;
+        min-width: 730px;
+    }
+}
+
+.mid-list {
+    position: relative;
+    width: 270px;
+    border-left:50px;
+}
+
+.icons-bottom {
+    margin-top: 8px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+.end-list {
+    height:38px;
+    width: 280px;
+}
+
+.end-bar {
+    height: 20px;
+}
+
+.icons-bottom {
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+

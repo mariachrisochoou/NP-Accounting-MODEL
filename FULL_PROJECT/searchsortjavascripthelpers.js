@@ -84,7 +84,7 @@ function redirect() {
 		// Check if at least two checkboxes are selected
 		if (checkboxes.length >= 2) {
 			// Redirect to the new page
-			window.location.href = "compare_page.html";
+			window.location.href = "new_page.html";
 		} else {
 			alert("Choose at least two documents to compare.");
 		}
